@@ -7,15 +7,25 @@
 nav {
     a {
         padding-right: 1rem;
+        color: white;
+        text-decoration: none;
     }
 
 }
 
 header {
     padding-left: 1rem;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
+    height: calc(100vh - 160px);
+
     h1 {
         padding-bottom: .5rem;
     }
@@ -27,4 +37,10 @@ main {
 
 footer {
     padding-left: 1rem;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
