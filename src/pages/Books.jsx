@@ -4,12 +4,7 @@ export default function Books() {
 
     return (
         <>
-            <header>
-                <div className="logo">
-                    LOGO
-                </div>
-                <MainMenu />
-            </header>
+
 
             <main>
                 <h1>Books Page</h1>
@@ -19,9 +14,7 @@ export default function Books() {
 
             </main>
 
-            <footer>
-                <p>copyright 2024</p>
-            </footer>
+
         </>
 
     )

@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contacts from './pages/Contacts'
 import Books from './pages/Books'
+import DefaultLayout from './pages/DefaultLayout'
+
 
 
 function App() {
@@ -15,10 +17,12 @@ function App() {
       <BrowserRouter>
         {/* Your routes list */}
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/books' element={<Books />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contacts' element={<Contacts />} />
+          <Route element={<DefaultLayout />}>
+            <Route path='/' element={<Home />} />
+            <Route path='/books' element={<Books />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contacts' element={<Contacts />} />
+          </Route >
         </Routes>
 
       </BrowserRouter>
