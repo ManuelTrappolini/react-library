@@ -8,6 +8,7 @@ export default function Home() {
                 </div>
                 <nav>
                     <a href="/">Home</a>
+                    <a href="/books">Books</a>
                     <a href="/about">About</a>
                     <a href="/contacts">Contacts</a>
                 </nav>
@@ -15,6 +16,9 @@ export default function Home() {
 
             <main>
                 <h1>Home Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequatur obcaecati in nulla amet, qui quidem eveniet laborum accusantium laudantium!
+
+                </p>
 
             </main>
 
